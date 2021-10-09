@@ -1,0 +1,51 @@
+.orderform{
+    height: 1250px;
+    background-image: url(./../images/bg.webp) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding-top: 560px;
+}
+.left {
+    float: left;
+    background: aqua;
+    padding: 4vw;
+    border-radius: 2vw;
+    line-height: 1.5vw;
+    opacity: 0.7;
+    margin-right: 9vw;
+}
+p.zacaz {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+button.knopka {
+    width: 12vw;
+    border-radius: 21px;
+    background: blue;
+    color: wheat;
+    transition: 0.5s;
+}
+button.knopka a {
+    color: white;
+    text-decoration: none;
+}
+button.knopka:hover{
+    cursor: pointer;
+    background: red;
+    color: aqua;
+}
+h1.zagolovok {
+    color: white;
+    font-size: 3vw;
+}
+p.p {
+    color:white;
+    font-size: 1.5vw;
+}

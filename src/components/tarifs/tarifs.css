@@ -1,0 +1,37 @@
+.tarifs{
+    height: 40vw;
+    background: #f0f0f0;
+    padding: 8vw 25vw;
+}
+.zagolovki{
+    text-align: center;
+}
+h1.cc {
+    font-weight: bold;
+}
+p.cc{
+    font-size: 1vw;
+    margin-top: 2vw;
+}
+.col {
+    text-align: center;
+    padding: 50px 0;
+}
+.colums {
+    display: flex;
+    justify-content: center;
+}
+.col button {
+    background: #02bcfa;
+    border-radius: 15px;
+    width: 6.2vw;
+}
+.col button a{
+    color: white;
+    text-decoration: none;
+}
+.col {
+    background: white;
+    border-radius: 20px;
+    margin: 6px;
+}
