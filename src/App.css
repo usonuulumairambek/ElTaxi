@@ -1,0 +1,8 @@
+.Main{
+    height: 1067px;
+    background-image: url(./components/images/bg.webp) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}

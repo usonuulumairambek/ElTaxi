@@ -14,16 +14,3 @@ body {
   margin: 0;
   font-family: 'robotoregular'!important;
 }
-
-code {
-  font-family: 'robotoregular';
-}
-
-.main__container {
-  width: 100%;
-  padding: 0 7%;
-}
-
-* {
-  box-sizing: border-box;
-}

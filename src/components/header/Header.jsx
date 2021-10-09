@@ -1,4 +1,5 @@
 import React from "react";
+import "./header.css";
 
 function Header() {
   return (
@@ -17,7 +18,11 @@ function Header() {
           </li>
         </ul>
       </div>
-      <div className="header__phone"></div>
+      <div className="header__phone">
+        <button className="header__phone-btn">
+          <a href="tel:+996709909443">+996 707 22 57 22</a>
+        </button>
+      </div>
     </div>
   );
 }

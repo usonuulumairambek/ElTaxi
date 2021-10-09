@@ -1,0 +1,42 @@
+.header {
+    padding: 0 20px 0 20px;
+    height: 100px;
+    background-color: rgb(63, 62, 62);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.header__navbar ul {
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+
+.header__navbar ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 19px;
+    color: white;
+    margin: 0 10px 0 10px;
+}
+
+.header__logo {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header__phone-btn {
+    background-color: white;
+    height: 40px;
+    padding: 0 30px 0 30px;
+    border: none;
+    border-radius: 20px;
+}
+
+.header__phone-btn a {
+    color: #ff7d41;
+    font-weight: bold;
+}
