@@ -1,19 +1,25 @@
 import React from 'react';
+import Home from "./Home"
+import {
+  BrowserRouter,
+  BrowserRouter as Route,
+  Switch,
+} from "react-router-dom";
 import './App.css';
-import Header from './components/header/Header';
-import OrderForm from './components/orderform/OrderForm';
-import Static from './components/static/static';
-import Tarifs from './components/tarifs/Tarifs';
-
+import Header from "./components/header/Header"
+import Main from './components/main/Main';
 function App() {
   return (
-    <div className="Main">
+    <BrowserRouter>
       <Header />
-      <OrderForm />
-      <Static />
-      <Tarifs />
-    </div>
+      <Home />
+      <Switch>
+        <Route path="/about">
+          <Main />
+        </Route>
+      </Switch>
+
+    </BrowserRouter>
   );
 }
-
 export default App;
