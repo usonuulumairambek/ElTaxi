@@ -1,108 +1,105 @@
-.home{
-    background-image: url(./components/images/bg.png);
-    margin: 0;
-    
+/* .home {
+   display: flex;
+} */
+
+.home__left {
+   position: absolute;
+   z-index: 10;
+   top: 0;
+   left: 0;
+   width: 240px;
+   overflow: auto;
+   overflow-x: hidden;
+   max-height: 100vh;
+   background-color: #fff;
 }
-.home__container{
-    display: flex;
-    justify-content: space-around;
+
+.home__left-logo {
+   display: flex;
+   justify-content: center;
 }
-.home__container-about{
-    z-index: 1;
-    background-color: black;
-    opacity: 0.6;
-    border-radius: 70px;
-    max-width: 550px;
-    height: 300px;
-    display: flex;
-    align-items: center;
+
+.home__left-logo {
+   margin: 20px 0 20px 0;
 }
-h1{
-    opacity: 1;
+
+.home__left-order-taxi {
+   background-color: #ddd;
 }
-.home__container-about h1{
-    color: black;
-    z-index: 12;
-    max-width: 500px;
+
+.home__left-order-taxi-h1 a {
+   display: block;
+   padding-left: 25px;
+   background-repeat: no-repeat;
+   font-size: 14px;
+   font-weight: bold;
+   line-height: 35px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   text-decoration: none;
+   color: #000;
 }
-* {
-    box-sizing: border-box;
- }
- .railway {
-    max-width: 350px;
-    padding: 20px;
-    background: #FAAB1B;
-    font-family: 'Oswald', sans-serif;
- }
- .stripes-block {
-    position: relative;
-    padding: 10px 10px 15px;
-    margin-bottom: 20px;
-    background: repeating-linear-gradient(-30deg, #291810, #291810 8px, #FAAB1B 10px, #FAAB1B 14px);
- }
- .stripes-block:before {
-    content: "";
-    position: absolute;
-    margin-left: -6px;
-    width: 14px;
-    height: 14px;
-    border-radius: 50%;
-    background: #fffffe;
-    box-shadow: 0 0 0 2px #291810, 0 0 0 12px #9c8778;
- }
- .line {
-    width: 60%;
-    margin: 0 auto;
-    height: 15px;
-    border: 2px solid #603624;
-    border-radius: 3px;
-    background: repeating-linear-gradient(90deg, #FAAB1B, #FAAB1B 3px, #603624 3px, #603624 6px);
- }
- .railway h3 {
-    padding: 7px;
-    margin-bottom: 20px;
-    text-align: center;
-    line-height: 1;
-    text-transform: uppercase;
-    color: #FAAB1B;
-    background: #291810;
- }
- .form-group {
-    margin-bottom: 20px;
-    padding: 10px;
-    background: #291810;
- }
- .form-group input, .form-group label, .form-group textarea {
-    display: block;
-    width: 100%;
- }
- .form-group input {
-    padding: 0;
-    line-height: 30px;
-    background: #FAAB1B;
-    border-width: 0;
- }
- .form-group label {
-    margin-bottom: 5px;
-    color: #FAAB1B;
-    text-transform: uppercase;
-    font-size: 12px;
- }
- .submit-block {
-    padding: 10px 20px 20px;
-    background: repeating-linear-gradient(-30deg, #291810, #291810 8px, #FAAB1B 10px, #FAAB1B 14px);
-    text-align: center;
-    cursor: pointer;
- }
- .submit-button {
-    display: inline-block;
-    padding: 5px 10px;
-    background: #FAAB1B;
- }
- .submit-button input {
-    padding: 0;
-    background: #FAAB1B;
-    border-width: 0;
-    text-transform: uppercase;
-    cursor: pointer;
- }
+
+.home__left-order-nav ul {
+   padding: 0;
+}
+
+.home__left-order-nav ul li {
+   list-style: none;
+}
+
+.home__left-order-nav ul li a:hover {
+   color: #0149af;
+}
+
+.home__left-order-nav ul li a {
+   display: inline-block;
+   border: 1px solid transparent;
+   border-radius: 4px;
+   font-size: 12px;
+   line-height: 17px;
+   text-decoration: none;
+   color: #000;
+   width: 180px;
+   padding: 5px 10px;
+}
+
+.home__left-navbar ul li {
+   margin: 10px 3px 10px 3px;
+   padding: 0 0 0 10px;
+   list-style: none;
+   border-radius: 5px;
+   height: 80px;
+   display: flex;
+   align-items: center;
+   background-color: #0149af;
+}
+
+.home__left-navbar ul {
+   padding: 0;
+}
+
+.home__left-navbar ul a {
+   color: white;
+}
+
+.home__left-navbar ul li img {
+   margin-right: 5px;
+}
+
+.home__left-links ul li {
+list-style: none;
+}
+.home__left-links ul li a{
+   color: black;
+   cursor: pointer;
+   margin: 10px 0 10px 0;
+   }
+
+   /* Home right */
+
+
+   .home__right{
+      margin-left: 240px;
+
+   }

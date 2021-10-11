@@ -1,0 +1,8 @@
+.app__container{
+    background-image: url(./../images/bg-app.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 730px;
+    width: 1090px;
+    overflow-x: hidden;
+}

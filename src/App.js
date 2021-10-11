@@ -11,14 +11,13 @@ import Main from './components/main/Main';
 function App() {
   return (
     <BrowserRouter>
-      <Header />
+      {/* <Header /> */}
       <Home />
       <Switch>
         <Route path="/about">
           <Main />
         </Route>
       </Switch>
-
     </BrowserRouter>
   );
 }
